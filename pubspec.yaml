@@ -1,0 +1,29 @@
+name: appdiscovery_sdk
+description: "AppDiscovery offerwall SDK for Flutter (Android and iOS). Configure it with the host of your own offerwall."
+version: 1.0.0
+homepage: https://github.com/appdiscoverysdk/appdiscovery-flutter
+repository: https://github.com/appdiscoverysdk/appdiscovery-flutter
+issue_tracker: https://github.com/appdiscoverysdk/appdiscovery-flutter/issues
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.1.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.appdiscoverysdk.flutter
+        pluginClass: AppDiscoverySdkPlugin
+      ios:
+        pluginClass: AppDiscoverySdkPlugin

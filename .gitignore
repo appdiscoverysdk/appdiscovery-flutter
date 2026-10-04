@@ -1,0 +1,21 @@
+.DS_Store
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+/build/
+/pubspec.lock
+*.iml
+.idea/
+.flutter-plugins
+.flutter-plugins-dependencies
+android/.gradle/
+android/local.properties
+android/build/
+# Platform scaffolding of the example app is generated (flutter create)
+example/android/
+example/ios/
+example/.dart_tool/
+example/build/
+example/pubspec.lock
+example/.metadata
